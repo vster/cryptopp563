@@ -348,7 +348,7 @@ int CRYPTOPP_API main(int argc, char *argv[])
 		else if (command == "u")
 			GunzipFile(argv[2], argv[3]);
 		else if (command == "fips")
-			FIPS140_SampleApplication();
+            FIPS140_SampleApplication();
 		else if (command == "fips-rand")
 			FIPS140_GenerateRandomFiles();
 		else if (command == "ft")
